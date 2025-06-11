@@ -6,6 +6,7 @@
 
 html { 
     scroll-behavior: smooth;  /* Rolagem de página suave */
+    overflow-x: hidden;
 }
 
 #tsuru {
@@ -25,6 +26,7 @@ body {   /* Background, fonte, cor da letra */
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
     color: rgb(170, 170, 170);
+    overflow-x: hidden;
 }
 
 header {  /* Cabeçalho */
