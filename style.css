@@ -152,6 +152,10 @@ main {  /* Parte principal do site, logo abaixo do cabeçalho */
             height: 700px;
         }
     }
+
+    strong{
+        color: white;
+    }
 }
 
 hr {  /* Linha horizontal */
