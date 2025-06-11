@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi Maru</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fotos/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+</head>
+</script>
+<body>
+    <div id="tsuru"></div> <!-- Background -->
+    <header id="cabeçalho">
+        <h1><a href="#"><img id="logo" src="fotos/logo.png" alt=""></a></h1> <!-- Imagem do logo -->
+        <button class="menu-toggle" aria-label="Abrir menu">
+            ☰
+         </button>
+        <nav class="menu">
+            <ul>
+                <li><a href="#quem_somos">Quem somos</a></li> <!-- Menu no canto superior direito, logo no canto esquerdo ✅ -->
+                <li><a href="https://sushi-maru.goomer.app/menu" target="_blank">Cardápio</a></li>
+                <li><a href="#rodapé">Contato</a></li>
+            </ul>
+        </nav>
+    </header> <!-- Manter o header sempre visível, mesmo rolando pra baixo ✅ -->
+    <div class="container">
+        <main> <!-- IDEIA = laterais com algum tipo de textura ou imagem ou até vídeo de um desenho de árvore, coisa bem delicada. Deixar efeito parallax (estático) -->
+            <section id="img_topo">
+                <img class="scroll-anim from-right" src="fotos/hosso_hashi.png" alt="Foto de Sushi"> <!-- Imagem cobrindo todo width, formando um "segundo cabeçalho" -->
+            </section>
+            <section class="corpo">
+                <p class="scroll-anim from-left"><strong>Descubra a verdadeira essência da culinária japonesa</strong> <br>Nosso restaurante honra essa tradição com autenticidade. Nossos chefs - japoneses - carregam consigo o conhecimento passado de geração em geração. Cada prato conta histórias, desperta memórias e revela sabores que atravessam o tempo — tudo elaborado com técnica apurada, respeito às tradições e ingredientes frescos cuidadosamente selecionados. Venha viver essa experiência: uma verdadeira viagem ao Japão, sem sair da cidade.</p>
+                <img class="scroll-anim from-right" src="fotos/painel.jpg" alt=""><!-- Texto genérico, "melhor restaurante japonês etc"-->
+            </section>
+            <section class="corpo" id="quem_somos">
+                <img class="scroll-anim from-left" src="fotos/sushi_maru_ghibli.jpg" alt="">
+                <p class="scroll-anim from-right"><strong>Sushi Maru</strong> <br> Nossa história começou em 2011, em uma pequena casinha escondida na Avenida Ceará. Com apenas sete mesas e funcionando exclusivamente no horário do almoço — algo incomum para restaurantes japoneses —, demos início à nossa jornada. Desde o início, todo o atendimento e serviço eram realizados pela nossa própria família: pai, mãe e filho, lado a lado, cuidando de cada detalhe.
+
+                Com o passar do tempo, conquistamos não apenas clientes, mas verdadeiros amigos. Muitos deles nos acompanham até hoje, sempre fazendo questão de nos visitar, nos cumprimentar e continuar fazendo parte da nossa história.
+                <br>
+                Recentemente, vivemos uma nova etapa: nos mudamos para um espaço maior, mais bonito e acolhedor, em um bairro ainda mais próximo de nós. Essa mudança também nos permitiu abrir à noite, oferecendo mais oportunidades para receber nossos clientes com o mesmo carinho de sempre.
+
+                Apesar do crescimento, nossa essência continua a mesma. Seguimos preparando nossos pratos manualmente, com dedicação, cuidado e o compromisso de manter a qualidade que nos trouxe até aqui.
+
+                Esse é apenas um breve resumo da nossa trajetória — as histórias mais bonitas continuam acontecendo todos os dias, em cada refeição servida.
+                <br>
+                <strong>Sejam muito bem-vindos!</strong> </p> <!-- Texto quem somos, quando clicar no botão lá em cima do menu, será redirecionado para cá -->
+            </section>
+            <hr>
+            <section id="insta">
+                <img src="fotos/gyooza.jpg" alt="Foto de Gyooza">
+                <img src="fotos/hot.jpg" alt="Foto de Hot Philadélphia">
+                <img src="fotos/hossomaki.jpg" alt="Foto de Hossomaki">
+                <img src="fotos/yakissoba.jpg" alt="Foto de Yakissoba">
+                <img src="fotos/sashimi.jpg" alt="Foto de Sashimi">
+                <img src="fotos/tsutsumi.jpg" alt="Foto de Tsutsumi">
+                <img src="fotos/tempura_sorvete.jpg" alt="Foto de Tempurá de Sorvete">
+                <img src="fotos/temaki.jpg" alt="Foto de Temaki">
+                <!-- "cópia do instagram", várias imagens mostrando os pratos, local, etc. uma do lado da outra com ar minimalista estilo feed instagram -->
+            </section>
+        </main>
+        <hr>
+        <footer id="rodapé">
+            <article id="local">
+                <p>Rua Marcílio Dias, 310 
+                    Bairro Menino Deus/Porto Alegre
+                </p> <br>
+                <a href="https://www.google.com/maps/place/Sushi+Maru/data=!4m2!3m1!1s0x0:0x7afcd6b914672036?sa=X&ved=1t:2428&ictx=111" target="_blank"><i class="fas fa-map-marker-alt local-icon"></i> Veja no mapa</a>
+            </article>
+            <article id="telefone">
+                <p> <i class="fas fa-phone-alt contato-icon"></i> Telefone</p> <br>
+                <p>(51) 99350-7171</p>
+            </article>
+            <article id="funcionamento">
+                <p>Abertos de Terça a Sábado</p> <br>
+                <p>11h às 15h /<br>/ 19h às 22h</p>
+            </article>
+            <article id="redes">
+                <p>Nossas Redes</p> <br>
+                <a href="https://www.instagram.com/sushimaru_poa/" target="_blank"> <i class="fab fa-instagram contato-icon"></i> Instagram</a>
+            </article>
+        </footer>
+    </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
