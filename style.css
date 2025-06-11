@@ -229,7 +229,9 @@ footer article a:hover {
     }
 
     img#sushi {
-        padding-top: 250px;
+        transform: scale(1.9);
+        padding: 200px 0;
+
     }
 
     img.feed {
